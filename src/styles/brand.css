@@ -1,8 +1,4 @@
-/* Brand + visual variant for aisecdigest-com
- * cluster: news
- * variant: v5_newspaper_columns
- * Generated 2026-05-07. Higher specificity than globals.css cluster rules. */
-
+/* Brand for aisecdigest-com: cluster=news, variant=v5_newspaper_columns */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
 
 body[data-cluster='news'] {
@@ -25,30 +21,4 @@ body[data-cluster='news'] {
 html.dark body[data-cluster='news'] {
   --bg: 250 250 248; --fg: 17 24 39; --surface: 243 244 246;
   --accent-500: 55 65 81; --accent-600: 55 65 81;
-}
-
-
-body[data-cluster='news'] {
-  --type-scale: 1.333;
-  --space-y: 0.25rem;
-}
-body[data-cluster='news'] h1 { font-size: calc(1rem * var(--type-scale) * var(--type-scale) * var(--type-scale) * var(--type-scale)); line-height: 1.05; }
-body[data-cluster='news'] h2 { font-size: calc(1rem * var(--type-scale) * var(--type-scale) * var(--type-scale)); line-height: 1.15; }
-body[data-cluster='news'] h3 { font-size: calc(1rem * var(--type-scale) * var(--type-scale)); line-height: 1.2; }
-body[data-cluster='news'] p { margin-block: var(--space-y); }
-
-
-/* Hero / header layout — variant: center */
-body[data-cluster='news'] .hero, body[data-cluster='news'] header.site-header { text-align: center; padding: 2rem 1rem; }
-
-/* Card style — variant: border-top */
-body[data-cluster='news'] article { border-top: 1px solid rgb(156 163 175); padding-top: 1rem; }
-
-/* Accent application — variant: rule-line */
-body[data-cluster='news'] hr, body[data-cluster='news'] header { border-top: 4px double rgb(55 65 81); }
-
-/* Border radius — variant uses 0 */
-body[data-cluster='news'] article,
-body[data-cluster='news'] .card {
-  border-radius: 0;
 }

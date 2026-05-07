@@ -1,5 +1,6 @@
 ---
 title: "What this site is for"
+author: "Theo Voss"
 description: "AI Sec Digest covers cybersecurity news with an engineer's filter. Here's what we publish."
 pubDate: 2026-05-03
 tags: ["meta"]

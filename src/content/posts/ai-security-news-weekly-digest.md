@@ -16,6 +16,7 @@ sources:
     url: "https://www.esecurityplanet.com/weekly-roundup/critical-vulnerabilities-ai-risks-and-supply-chain-breaches-define-this-week-in-cybersecurity-may-2026/"
 schema:
   type: "TechArticle"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/aisecdigest.com/ai-security-news-weekly-digest.png
 ---
 
 If you work anywhere near deployed AI systems — red-teaming, security engineering, risk management, or operations — an AI security news weekly digest is no longer optional. The attack surface for AI systems expanded faster in 2025 and early 2026 than the security community's ability to catalog it. New vulnerability classes, regulatory requirements, and real-world incidents now arrive faster than monthly reading can absorb.

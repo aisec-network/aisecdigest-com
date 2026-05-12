@@ -60,3 +60,8 @@ The consistent pattern suggests systematic under-investment in input validation 
 ---
 
 *AI security tooling comparisons at [bestaisecuritytools.com](https://bestaisecuritytools.com). Weekly jailbreak research at [jailbreakdb.com](https://jailbreakdb.com).*
+
+## See also
+
+- [AI security alerts](https://ai-alert.org/)
+- [AI incident tracker](https://aiincidents.org/)

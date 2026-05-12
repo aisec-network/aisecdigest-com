@@ -54,7 +54,7 @@ This is the practitioner's interpretation: what each item means operationally, w
 
 **What to do:** Pin and hash all ML dependencies. Verify model checksums from trusted sources. Audit fine-tuning datasets. Monitor for unexpected network egress from training jobs.
 
-## LLM06: Sensitive Information Disclosure
+## LLM06: Sensitive Information [Disclosure](https://ai-alert.org/)
 
 **Operational relevance: High.** Models memorize training data and can reproduce it under the right conditions. If your fine-tuning data includes PII, proprietary information, or other sensitive data, this is a real risk.
 
@@ -95,3 +95,5 @@ For a typical production LLM application (not doing fine-tuning, using a commerc
 5. **Excessive Agency (LLM08):** High priority if building agents.
 
 The full OWASP guide is at the linked primary source. For tool coverage of each risk category: [bestaisecuritytools.com](https://bestaisecuritytools.com).
+
+For more context, [AI incident tracker](https://aiincidents.org/) covers related topics in depth.

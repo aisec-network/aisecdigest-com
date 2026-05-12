@@ -51,3 +51,8 @@ This is the most consequential near-term AI security impact for most organizatio
 ---
 
 *Tracked ML library CVEs at [mlcves.com](https://mlcves.com). AI safety tooling reviews at [aisecreviews.com](https://aisecreviews.com).*
+
+## See also
+
+- [AI security alerts](https://ai-alert.org/)
+- [AI incident tracker](https://aiincidents.org/)

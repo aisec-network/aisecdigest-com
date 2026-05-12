@@ -28,7 +28,7 @@ The methodology includes specific evaluation protocols for CBRN (chemical, biolo
 
 ## Vulnerabilities
 
-**LangChain CVE disclosure:** A path traversal vulnerability affecting the LangChain document loader allowed attackers to read arbitrary files on the server in affected configurations. Affected versions: 0.1.x before 0.1.17. The vulnerability required user-supplied file paths to be passed to the loader without sanitization. Fixed in 0.1.17. Teams using the affected versions with untrusted user input should patch. (See [mlcves.com](https://mlcves.com) for tracked CVE details.)
+**LangChain CVE [disclosure](https://ai-alert.org/):** A path traversal vulnerability affecting the LangChain document loader allowed attackers to read arbitrary files on the server in affected configurations. Affected versions: 0.1.x before 0.1.17. The vulnerability required user-supplied file paths to be passed to the loader without sanitization. Fixed in 0.1.17. Teams using the affected versions with untrusted user input should patch. (See [mlcves.com](https://mlcves.com) for tracked CVE details.)
 
 **vLLM API authentication gap:** A report describing missing authentication enforcement in vLLM's REST API under specific configuration combinations. The API could be reached without authentication tokens in deployments using a specific reverse proxy configuration. Not a vLLM bug per se — a configuration issue — but the disclosure includes details that make misconfiguration likely in common production setups. Patch: vLLM's documentation has been updated with explicit configuration warnings.
 

@@ -19,7 +19,7 @@ schema:
 heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/aisecdigest.com/ai-security-news-weekly-digest.png
 ---
 
-If you work anywhere near deployed AI systems — red-teaming, security engineering, risk management, or operations — an AI security news weekly digest is no longer optional. The attack surface for AI systems expanded faster in 2025 and early 2026 than the security community's ability to catalog it. New vulnerability classes, regulatory requirements, and real-world incidents now arrive faster than monthly reading can absorb.
+If you work anywhere near deployed AI systems — red-teaming, security engineering, risk management, or operations — an AI security news [weekly digest](https://aisecweekly.com/) is no longer optional. The attack surface for AI systems expanded faster in 2025 and early 2026 than the security community's ability to catalog it. New vulnerability classes, regulatory requirements, and real-world incidents now arrive faster than monthly reading can absorb.
 
 This post explains what a useful **AI security news weekly digest** covers, where to find primary-source material, and how to structure your weekly reading to separate signal from noise.
 

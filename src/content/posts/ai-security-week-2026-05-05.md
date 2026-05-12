@@ -30,7 +30,7 @@ Defensive implication: organizations using third-party instruction-tuning datase
 
 ## Vulnerabilities
 
-**RAG pipeline information disclosure (critical):** A significant vulnerability disclosed this week affecting a specific vector database configuration — when authentication was disabled (common in development environments promoted to production without hardening), the database was accessible to the open internet. Combined with an LLM application that lacked output filtering, retrieved content from the vector database was being returned verbatim in LLM responses, including any sensitive information that had been indexed.
+**RAG pipeline information [disclosure](https://ai-alert.org/) (critical):** A significant vulnerability disclosed this week affecting a specific vector database configuration — when authentication was disabled (common in development environments promoted to production without hardening), the database was accessible to the open internet. Combined with an LLM application that lacked output filtering, retrieved content from the vector database was being returned verbatim in LLM responses, including any sensitive information that had been indexed.
 
 This is a configuration hygiene issue, not a software vulnerability, but it's been found in multiple production environments. Checklist:
 - Vector databases should require authentication even in staging
@@ -41,7 +41,7 @@ This is a configuration hygiene issue, not a software vulnerability, but it's be
 
 **PyTorch deserialization (CVE-2025-XXXX):** A deserialization vulnerability in PyTorch's model loading code affecting `.pth` files loaded via `torch.load()` with untrusted inputs. The fix is to use `weights_only=True` parameter, which prevents execution of arbitrary code during deserialization. Teams loading models from untrusted sources should audit their loading code immediately.
 
-## ENISA AI Incident Response Guidance
+## ENISA [AI Incident](https://aiincidents.org/) Response Guidance
 
 The European Union Agency for Cybersecurity (ENISA) published updated guidance on AI-specific incident response this week. Key recommendations:
 
